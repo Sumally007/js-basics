@@ -14,15 +14,32 @@
 // let firstName = undefined; 
 // let selectedColor = null; 
 
-let person = {
-    name: 'ismail',
-    age: 23,
+// let person = {
+//     name: 'ismail',
+//     age: 23,
+// };
+
+
+// person.name = 'juma';
+
+
+// let selectedColor = ['red', 'blue']
+// selectedColor[2] = 'pink';
+// console.log(selectedColor.length);
+
+// Function
+// Performing a task 
+function greet(firstName, lastName) {
+    console.log('hello' + ' ' + firstName + ' ' + lastName);
+}
+
+greet('ismail', 'Said');
+
+
+// Calculating a value
+
+function square(number) {
+    return number * number;
 };
 
-
-person.name = 'juma';
-
-
-let selectedColor = ['red', 'blue']
-selectedColor[2] = 'pink';
-console.log(selectedColor.length);
+console.log(square(4));
